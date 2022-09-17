@@ -1,0 +1,49 @@
+.originalimg{
+    width: 130px;
+    height: 130px;
+    margin: 10px;display: block;
+    cursor: pointer;
+}
+.netflixoriginal{
+    display: flex;
+    overflow: hidden;
+   
+  
+}
+
+
+.originalimg:hover{
+    transform: scale(2);
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+h1{
+    color: #E50914;
+    margin: 17px;
+    font-size: 30px;
+}
+
+#marron {
+    color: white;
+    font-weight:600;
+    font-size: 17px;
+    margin-left: 5px;
+   
+}
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #E50914;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #E50914;  /* creates padding around scroll thumb */
+  }
